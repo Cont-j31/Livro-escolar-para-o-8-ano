@@ -60,17 +60,16 @@ main{
     border: 3px solid black;
     width:50%;
     margin:50px auto;
-    padding:20px
+    padding:20px;
+    min-width:1000px;
 }
 .bor{
     border:3px dashed orange;
-    width:30vw;
-    margin:5px;
-    height:30vh;
-}
-#flexb{
-    display:flex;
-    flex-direction: row;
+    width:90%;
+    margin:5px auto;
+    height:15vh;
+    min-width:800px;
+    min-height:120px
 }
 .rad{
     border:3px dashed orange;
@@ -97,17 +96,16 @@ main{
     table {
         width: 30%;
     }
-
-    #flexb {
-        flex-direction: column;
-    }
-
     .bor {
         width: 100%;
         height:30vh;
+        min-width:300px;
     }
     .lis{
         height:25vh;
         width:90%;
+    }
+    main{
+        min-width:350px;
     }
 }
