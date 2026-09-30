@@ -1,4 +1,5 @@
 html, body {
+    height:100vh;
     min-height: 100vh;
     margin: 0;
     background-color: rgb(4, 4, 61);
@@ -28,7 +29,7 @@ html, body {
     top: 0;
     left: 0;
     width: 12%;
-    height: 100vh;
+    height: 100%;
 }
 .le {
     background-color: rgb(212, 215, 218);
@@ -36,7 +37,7 @@ html, body {
     top: 0;
     right: 0;
     width: 12%;
-    height: 100vh;
+    height: 100%;
 }
 header{
     text-align:center;
@@ -93,6 +94,9 @@ main{
     color:violet;
 }
 @media (max-width:752px) {
+    .le{
+        min-width:50px;
+    }
     table {
         width: 30%;
     }
