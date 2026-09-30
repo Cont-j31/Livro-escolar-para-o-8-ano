@@ -1,0 +1,220 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(4, 4, 61);
+}
+
+#tit {
+    text-align: center;
+    color: white;
+}
+
+.emap {
+    text-align: center;
+}
+
+
+.verde, .amarelo, .azul {
+    font-family: Georgia, serif;
+    font-size: 200%;
+    margin: 0;
+}
+.verde { color: green; }
+.amarelo { color: yellow; }
+.azul { color: blue; }
+
+
+.ld {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100vh;
+}
+.le {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 12%;
+    height: 100vh;
+}
+
+.ass {
+    list-style: square;
+    text-align: justify;
+}
+
+/* Português */
+#port {
+    background-color: rgb(65, 177, 197);
+    border: 2px dashed rgb(24, 94, 94);
+    box-shadow: 0px 0px 10px 10px cyan; 
+}
+#btport {
+    color: white;
+    background-color: rgb(52, 52, 136);
+    box-shadow: 4px 4px 12px rgb(52, 52, 136);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Matemática */
+#mat {
+    background-color: rgb(211, 105, 35);
+    border: 2px dashed rgb(143, 75, 19);
+    box-shadow: 0px 0px 10px 10px orangered;
+}
+#btmat {
+    color: white;
+    background-color: rgb(168, 4, 4);
+    box-shadow: 4px 4px 12px rgb(168, 4, 4);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* História */
+#hist {
+    background-color: rgb(209, 66, 66);
+    border: 2px dashed rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px 10px rgb(145, 13, 13);
+}
+#bthist {
+    color: white;
+    background-color: rgb(70, 2, 2);
+    box-shadow: 4px 4px 12px rgb(70, 2, 2);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Geografia */
+#geog {
+    background-color: rgb(30, 74, 216);
+    border: 2px dashed rgb(19, 36, 109);
+    box-shadow: 0px 0px 10px 10px rgb(6, 44, 146);
+}
+#btgeog {
+    color: white;
+    background-color: rgb(2, 9, 70);
+    box-shadow: 4px 4px 12px rgb(2, 9, 70);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Ciências */
+#cien {
+    background-color: rgb(15, 110, 31);
+    border: 2px dashed rgb(15, 70, 10);
+    box-shadow: 0px 0px 10px 10px rgb(11, 199, 36);
+}
+#btcien {
+    color: white;
+    background-color: rgb(2, 70, 8);
+    box-shadow: 4px 4px 12px rgb(2, 70, 8);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Artes */
+#art {
+    background-color: rgb(158, 27, 125);
+    border: 2px dashed rgb(192, 81, 183);
+    box-shadow: 0px 0px 10px 10px rgb(87, 3, 83);
+}
+#btart {
+    color: white;
+    background-color: rgb(36, 3, 44);
+    box-shadow: 4px 4px 12px rgb(36, 3, 44);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Inglês */
+#ing {
+    background-color: rgb(108, 11, 219);
+    border: 2px dashed rgb(153, 131, 194);
+    box-shadow: 0px 0px 10px 10px rgb(113, 9, 211);
+}
+#bting {
+    color: white;
+    background-color: rgb(71, 30, 119);
+    box-shadow: 4px 4px 12px rgb(71, 30, 119);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Texto */
+#txt {
+    background-color: rgb(94, 92, 26);
+    border: 2px dashed rgb(201, 204, 33);
+    box-shadow: 0px 0px 10px 10px rgb(242, 255, 53);
+}
+#btxt {
+    color: white;
+    background-color: rgb(180, 162, 0);
+    box-shadow: 4px 4px 12px rgb(245, 234, 82);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+/* Educação Financeira */
+#fin {
+    background-color: rgb(110, 114, 116);
+    border: 2px dashed rgb(56, 55, 59);
+    box-shadow: 0px 0px 10px 10px rgb(241, 241, 241);
+}
+#btfin {
+    color: white;
+    background-color: rgb(81, 99, 102);
+    box-shadow: 4px 4px 12px rgb(139, 178, 184);
+    margin: auto;
+    width: 15%;
+    min-width:80px;
+}
+.prof{
+    margin: 1px 1px 10px 30px;
+    padding: 5px;
+    width: 8vw;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+#hre {
+    display: block;
+    width: 80px;
+    margin: auto;
+    color: rgb(201, 230, 255);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(231, 157, 157);
+}
+main{
+     border: 3px solid black;
+    width:50vw;
+    margin:50px auto;
+    padding:20px;
+    min-width: 600px;
+}
+.mat{
+    height: 25vh;
+    width: 30vw;
+    max-width: 800px;
+    max-height:350px;
+    min-height:250px;
+    min-width:500px;
+      text-align: center;
+       margin: 50px auto; 
+        color: white;
+}
+@media (max-width: 752px){
+    .mat{
+        width:100%;
+        min-width:250px;
+    }
+    .prof{
+        width: 20vw;
+    }
+    main{
+        min-width:300px;
+    }
+}

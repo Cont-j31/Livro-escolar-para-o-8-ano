@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apostila-estudantil do 8º ano</title>    
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <header>
+       <h1 class="emap">
+    <span class="verde">E</span>
+    <span class="amarelo">M</span>
+    <span class="azul">A</span>
+    <span class="verde">P</span>
+</h1>
+<a href="../degraupi/página-inicial.html" id="hre">Voltar</a>
+<h3>Calculador</h3>
+
+ <div class="ld"></div>
+        <div class="le"></div>
+        </header>
+         <main>
+            <article class="bim">
+           <table>
+            <thead>
+                <tr>
+                <th>Matérias</th>
+                <th>1º Bimestre</th>
+                <th>2º Bimestre</th>
+                <th>3º Bimestre</th>
+                <th>Quanto falta</th>
+            </tr>
+
+            </thead>
+
+            <tr>
+                <td>Português</td>
+                <td>
+                    <input type="number" class="b1" id="1p" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2p" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3p" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RP" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>
+                    <input type="number" class="b1" id="1m" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2m" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3m" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RM" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>História</td>
+                <td>
+                    <input type="number" class="b1" id="1h" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2h" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td
+                ><td>
+                    <input type="number" class="b1" id="3h" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RH" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>
+                    <input type="number" class="b1" id="1g" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2g" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3g" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RG" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Ciências</td>
+                <td>
+                    <input type="number" class="b1" id="1c" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2c" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3c" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RC" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Artes</td>
+                <td>
+                    <input type="number" class="b1" id="1a" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2a" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3a" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RA" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Inglês</td>
+                <td>
+                    <input type="number" class="b1" id="1i" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2i" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3i" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RI" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Produção de texto</td>
+                <td>
+                    <input type="number" class="b1" id="1t" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2t" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3t" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RT" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Educação Financeira</td>
+                <td>
+                    <input type="number" class="b1" id="1f" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="2f" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="number" class="b1" id="3f" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RF" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>Educação Física</td>
+                <td>
+                    <input type="number" class="b1" id="1e" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                  <td>
+                    <input type="number" class="b1" id="2e" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                  <td>
+                    <input type="number" class="b1" id="3e" step="0.5" min="0" max="10" oninput="if(this.value > 10) this.value = 10; if(this.value < 0) this.value = 0;">
+                </td>
+                <td>
+                    <input type="text" id="RE" readonly>
+                </td>
+            </tr>
+
+           </table>
+            </article>
+
+            
+                <button id="botaoc">Calcular</button>
+            
+        </main>
+        <script src="cal.js"></script>
+    </body>
+</html>

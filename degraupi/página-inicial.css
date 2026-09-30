@@ -1,0 +1,150 @@
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(4, 4, 61);
+}
+
+.emap{
+    text-align:center;
+}
+
+.verde {
+    font-family:Georgia;
+    color:green;
+    font-size: 200%;
+    margin:0;
+}
+.amarelo{
+     font-family:Georgia;
+     color:yellow;
+    font-size: 200%;
+    margin:0;
+}
+.azul{
+      font-family:Georgia;
+     color:blue;
+    font-size: 200%;
+    margin:0;
+}
+#h5{
+     color:rgb(212, 206, 206);
+    text-align:center;
+}
+.ld {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100vh;
+}
+.le {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 12%;
+    height: 100vh;
+}
+.caixa{
+    padding:10px;
+    color:white;
+    text-align:center;
+    margin:10px auto;
+    width:40%;
+}
+button{
+    width:50px;
+}
+#cbimestres{
+    padding:20px;
+    border:3px solid rgb(15, 161, 154);
+    width:40%;
+    min-height: 400px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caixa4{
+    background-color: rgb(36, 34, 34);
+    border:2px dashed black;
+    opacity: 0.4;
+    box-shadow: 10px 10px 20px black,
+                10px 10px 20px black,
+                10px 10px 20px black;
+}
+.caixa1{
+    background-color: rgb(94, 36, 36);
+    border: 2px dashed rgb(209, 9, 9);
+    box-shadow: 10px 10px 20px  rgb(160, 11, 11),
+                 10px 10px 20px  rgb(160, 11, 11);
+}
+.caixa2{
+    background-color: rgb(37, 58, 13);
+    border: 2px dashed rgb(22, 133, 46);
+    box-shadow: 10px 10px 20px rgb(5, 70, 26),
+                 10px 10px 20px  rgb(5, 70, 26);
+}
+.caixa3{
+    background-color: rgb(65, 23, 61);
+    border: 2px dashed rgb(199, 20, 175);
+    box-shadow: 10px 10px 20px  rgb(105, 6, 100),
+                 10px 10px 20px  rgb(105, 6, 100);
+}
+h3{
+    color:white;
+    text-align:center;
+}
+#b1{
+    transition:all 1s;
+    background-color: red;
+}
+#b2{
+    transition:all 1s;
+    background-color: green;
+}
+#b3{
+    transition:all 1s;
+    background-color: purple;
+}
+#b4{
+    cursor:not-allowed;
+    background-color: rgb(6, 10, 63);
+}
+#b1:hover{
+    box-shadow:5px 5px 5px red,
+               5px 5px 5px red;
+}
+#b2:hover{
+     box-shadow:5px 5px 5px green,
+               5px 5px 5px green;
+}
+#b3:hover{
+     box-shadow:5px 5px 5px purple,
+               5px 5px 5px purple;
+}
+#calculator{
+    background-color:gray;
+    border:2px dashed rgb(65, 62, 62);
+    color:white;
+    text-align:center;
+    width:10vw;
+    margin: 25px auto;
+    box-shadow: 0px 0px 10px 10px gray;
+}
+#btcal{
+    margin:10px;
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px black;
+}
+@media (max-width:752px){
+
+    #cbimestres{
+        width:55vw;
+    }
+    #calculator{
+        width:30vw;
+    }
+}

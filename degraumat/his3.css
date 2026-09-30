@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(4, 4, 61);
+}
+.emap{
+    text-align:center;
+}
+
+.verde {
+    font-family:Georgia;
+    color:green;
+    font-size: 200%;
+    margin:0;
+}
+.amarelo{
+     font-family:Georgia;
+     color:yellow;
+    font-size: 200%;
+    margin:0;
+}
+.azul{
+      font-family:Georgia;
+     color:blue;
+    font-size: 200%;
+    margin:0;
+}
+.h5{
+    color:azure;
+    text-align: center;
+}
+.ld {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100vh;
+}
+.le {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 12%;
+    height: 100vh;
+}
+article{
+    border: 3px solid black;
+    width:50%;
+    margin:50px auto;
+    padding:20px
+}
+.txt{
+     border:2px dashed rgb(148, 13, 13);
+      color:azure;
+    text-align: center;
+    margin:15px;
+    box-shadow: 0px 0px 10px 12px rgb(248, 15, 15);
+}
+.tit{
+    color:rgb(255, 43, 43);
+}
+#hre {
+    display: block;
+    width: 80px;
+    margin: auto;
+    color: rgb(231, 51, 45);
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(85, 16, 16);
+}

@@ -1,0 +1,84 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(4, 4, 61);
+}
+.tit {
+    text-align: center;
+    color: white;
+}
+.emap {
+    text-align: center;
+}
+
+
+.verde, .amarelo, .azul {
+    font-family: Georgia, serif;
+    font-size: 200%;
+    margin: 0;
+}
+.verde { color: green; }
+.amarelo { color: yellow; }
+.azul { color: blue; }
+
+
+.ld {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100vh;
+}
+.le {
+    background-color: rgb(212, 215, 218);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 12%;
+    height: 100vh;
+}
+header{
+    text-align:center;
+    color: white;
+}
+article{
+     border: 3px solid black;
+    width:50%;
+    margin:50px auto;
+    padding:20px
+}
+.txt{
+    border:2px dashed rgb(83, 82, 7);
+    box-shadow: 0px 0px 10px 14px rgb(229, 233, 7);
+    width:20vw;
+    margin:20px auto;
+    color:white;
+    text-align: center;
+}
+.flexb{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.conte{
+    color:rgb(228, 225, 79);
+    text-align: center;
+}
+#hre{
+    color:rgb(201, 204, 21);
+    margin:10px;
+    text-decoration: none;
+    border: 1px solid rgb(34, 43, 2);
+    padding: 5px;
+    transition:all 1.5s;
+}
+#hre:hover{
+    color:violet;
+}
+@media (max-width: 752px){
+    .txt{
+        width:100%;
+         box-shadow: 0px 0px 10px 10px rgb(229, 233, 7);
+    }
+}
