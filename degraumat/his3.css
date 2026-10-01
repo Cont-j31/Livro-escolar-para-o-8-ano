@@ -53,3 +53,8 @@ article{
     text-align: center;
     border: 1px solid rgb(85, 16, 16);
 }
+@media (max-width: 752px){
+    main{
+        width:50vw;
+    }
+}
