@@ -89,7 +89,7 @@ main{
 }
 @media (max-width:752px) {
     .admv {
-        height: 40vh;
+        height: 50vh;
         width: 100%;
     }
 
