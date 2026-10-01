@@ -23,22 +23,6 @@ html, body {
 .azul { color: blue; }
 
 
-.ld {
-    background-color: rgb(212, 215, 218);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 12%;
-    height: 100%;
-}
-.le {
-    background-color: rgb(212, 215, 218);
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 12%;
-    height: 100%;
-}
 header{
     text-align:center;
     color: white;
