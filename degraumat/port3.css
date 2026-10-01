@@ -37,6 +37,7 @@ header{
 table {
     border-collapse: collapse;
     box-shadow: 0px 0px 5px 7px cyan;
+    
 }
 
 table, th, td {
@@ -104,7 +105,7 @@ main{
     .ad{
         width:100%;
     }
-    .ex{
+    table{
         height:65vh;
     }
 }
