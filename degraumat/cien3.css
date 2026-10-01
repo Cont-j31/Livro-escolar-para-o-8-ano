@@ -61,3 +61,8 @@ article{
 #hre:hover{
     color:violet;
 }
+@media (max-width: 752px){
+    .txt{
+        width:100%;
+    }
+}
