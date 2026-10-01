@@ -8,9 +8,8 @@ btn4.addEventListener("click", function () {
 });
 
 btn3.addEventListener('click', () => {
-   window.location.href = '../degrau1b/1bimestre.html';
+    window.location.href = 'degrau1b/1bimestre.html';
 });
-
 
 bt1e2.forEach(botao => {
     const botaoElemento = document.getElementById(botao);
@@ -21,7 +20,6 @@ bt1e2.forEach(botao => {
         });
     }
 });
-btcal.addEventListener("click", () =>{
-
-window.location.href = "../degrau.cal/cal.html";
+btcal.addEventListener("click", () => {
+    window.location.href = "degrau.cal/cal.html";
 });
