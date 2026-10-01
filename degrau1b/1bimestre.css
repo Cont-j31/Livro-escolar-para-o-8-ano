@@ -23,24 +23,6 @@ html, body {
 .amarelo { color: yellow; }
 .azul { color: blue; }
 
-
-.ld {
-    background-color: rgb(212, 215, 218);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 12%;
-    height: 100vh;
-}
-.le {
-    background-color: rgb(212, 215, 218);
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 12%;
-    height: 100vh;
-}
-
 .ass {
     list-style: square;
     text-align: justify;
