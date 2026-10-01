@@ -8,7 +8,7 @@ btn4.addEventListener("click", function () {
 });
 
 btn3.addEventListener('click', () => {
-    window.location.href = 'degrau1b/1bimestre.html';
+   window.location.href = 'https://cont-j31.github.io/Livro-escolar-para-o-8-ano/degrau1b/1bimestre.html';
 });
 
 bt1e2.forEach(botao => {
