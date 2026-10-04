@@ -101,4 +101,7 @@ main{
     .txt{
         width:100%;
     }
+    main{
+        min-width:300px;
+    }
 }
