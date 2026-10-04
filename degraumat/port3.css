@@ -33,7 +33,6 @@ header{
     width:30vw;
     height:20vh;
     margin:auto;
-    font-size: clamp(1.5rem, 1rem + 3vw, 3rem);
 }
 table {
     border-collapse: collapse;
