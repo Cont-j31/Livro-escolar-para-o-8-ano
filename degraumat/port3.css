@@ -33,6 +33,7 @@ header{
     width:30vw;
     height:20vh;
     margin:auto;
+    min-height:auto;
 }
 table {
     border-collapse: collapse;
